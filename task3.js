@@ -10,3 +10,10 @@
 //         `'TomTimTinTik'`
 
 // ---
+
+var numbers = ['Tom', 'Tim', 'Tin', 'Tik'];
+let newStr = '';
+for (let num of numbers) {
+    newStr = newStr + num;
+}
+console.log(newStr);
